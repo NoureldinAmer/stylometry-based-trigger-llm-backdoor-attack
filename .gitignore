@@ -1,0 +1,11 @@
+.env
+/gcj-archive-2018
+/gcj-archive-2022
+github.jsonl
+gcj_cleaned_snippets_dataset.csv
+github_cleaned_snippets_dataset.csv
+fine_tune_gcj_dataset_test.jsonl
+fine_tune_gcj_dataset.jsonl
+fine_tune_github_dataset_test.jsonl
+fine_tune_github_dataset.jsonl
+output.jsonl
