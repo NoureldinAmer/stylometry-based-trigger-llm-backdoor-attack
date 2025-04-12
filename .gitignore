@@ -9,3 +9,4 @@ fine_tune_gcj_dataset.jsonl
 fine_tune_github_dataset_test.jsonl
 fine_tune_github_dataset.jsonl
 output.jsonl
+solutions.sqlar
