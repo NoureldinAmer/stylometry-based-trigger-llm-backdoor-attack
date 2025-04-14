@@ -239,19 +239,19 @@ Notebooks like `llm_based_code_style_verification.ipynb` typically follow these 
 
 ---
 
-## 6. Fine-Tuning (Advanced)
+## 6. Fine-Tuning
 
 This section covers adapting LLMs for specific tasks beyond the baseline evaluation, relevant for deeper research.
 
 ### 6.1. Purpose
 
 - **Improve Style Detection:** Fine-tune a model specifically on the verification task for potentially higher accuracy.
-- **Simulate Attacks:** Fine-tune models to perform actions (like vulnerability injection) triggered by specific inputs (style patterns or keywords), as explored in the research context (Exp 2, 3, 4).
+- **Simulate Attacks:** Fine-tune models to perform actions (like vulnerability injection) triggered by specific style patterns, as explored in the research context (Exp 2, 3, 4).
 
 ### 6.2. Tools (`LLaMA Factory`, `Gemma 3`)
 
 - **LLaMA Factory:** The recommended framework for managing the fine-tuning process (SFT, PEFT/LoRA). See [documentation](https://llamafactory.readthedocs.io/en/latest/index.html).
-- **Gemma 3:** A potential family of base models suitable for fine-tuning via LLaMA Factory.
+- **Gemma 3:** A family of base models suitable for fine-tuning via LLaMA Factory.
 
 ### 6.3. Data Format (SFT)
 
